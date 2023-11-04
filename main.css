@@ -9,40 +9,45 @@
 body {
 	font-size: 16px;
 	font-family: 'Sanchez', serif;
+	
 }
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
-}
-
-aside {
 	
 }
 
-footer {
+aside { float: right; width: 20%;
+}
+
+footer {  float: left; width: 85%;
+	
+ }
+
+header { float: left; 
+	width: 65%;
 
 }
 
-header {
+img { 
+	max-width: 85%;
+	
+}
+
+main { float: left; 
+	width: 50%; 
+	
+}
+
+nav { float: left; width: 25%; 
 
 }
 
-img {
-	max-width: 75%;
-}
-
-main {
-
-}
-
-nav {
-
-}
-
-#copyright {
+#copyright { float: left;
 	font-size: 80%;
 }
 
-#main-container {
-
+#main-container { float: left; 
+	width: 60%;
+	
 }
